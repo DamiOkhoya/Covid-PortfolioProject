@@ -5,7 +5,7 @@ select *
 from portfolioproject.dbo.Covidvaccinations
 order by 3,4
 
--- select that we are using
+-- select columns that we are using
 
 select Location, date, total_cases, new_cases, total_deaths, population
 from portfolioproject..CovidDeaths
